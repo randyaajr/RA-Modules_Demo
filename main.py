@@ -2,9 +2,9 @@ from lib_num import conversion
 
 from colorama import Fore
 
-input_num = input('Enter the a numeric value: ')
-con_from = input('Which unit of measurement do you wish to converted from:  ')
-con_to = input('Which unit of measurement do you want it converted to: ')
+input_num = input(Fore.LIGHTCYAN_EX + 'Enter the a numeric value: ')
+con_from = input(Fore.LIGHTBLUE_EX + 'Which unit of measurement do you wish to converted from:  ')
+con_to = input(Fore.LIGHTMAGENTA_EX + 'Which unit of measurement do you want it converted to: ')
 
 """
 This simple measurement coversion app coverts the following below:
