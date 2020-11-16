@@ -1,7 +1,4 @@
-def conversion(): 
-    input_num = input('Enter the a numeric value: ')
-    con_from = input('Which unit of measurement do you wish to converted from:  ')
-    con_to = input('Which unit of measurement do you want it converted to: ')
+def conversion(input_num, con_from, con_to): 
 
     if con_from == "cm" and con_to == "m":
         ans = float(input_num)/100
@@ -33,5 +30,6 @@ def conversion():
     elif con_from == "inch" and con_to == "mm":
         ans = float(input_num)*25.4
         print(ans)
-    
-conversion()
+    else:
+        print("There is no formula for the value entered. Please enter a new value..")
+
