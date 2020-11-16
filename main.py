@@ -2,7 +2,7 @@ from lib_num import conversion
 
 from colorama import Fore
 
-print(Fore.LIGHTRED_EX + "Values available for conversion: \n 'cm to m'\t 'm to cm' \n 'cm to mm'\t 'mm to cm' \n 'mm to m'\t 'm to mm' \n 'ft to cm'\t 'ft to inch' \n 'inch to cm'\t 'inch to mm'")
+print(Fore.LIGHTYELLOW_EX + "Values available for conversion: \n 'cm to m'\t 'm to cm' \n 'cm to mm'\t 'mm to cm' \n 'mm to m'\t 'm to mm' \n 'ft to cm'\t 'ft to inch' \n 'inch to cm'\t 'inch to mm'")
 
 input_num = input(Fore.LIGHTCYAN_EX + 'Enter the a numeric value: ')
 con_from = input(Fore.LIGHTBLUE_EX +
