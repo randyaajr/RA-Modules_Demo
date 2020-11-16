@@ -1,6 +1,18 @@
 # Challenge 1
 ---
 
+This assignment demonstrates how to use the import method to import from another script. I have created a measurement conversion app which asks the user for an integer value and then asks which formula he/she would like to convert from then to. The fuction is located on the 'lib_num.py' file where as the user input application is located on the 'main.py' file. For better user expirience, I have added the following message prompt.
+```
+Values available for conversion: 
+ 'cm to m'       'm to cm' 
+ 'cm to mm'      'mm to cm' 
+ 'mm to m'       'm to mm' 
+ 'ft to cm'      'ft to inch'         
+ 'inch to cm'    'inch to mm'
+Enter the a numeric value: 
+```
+
+
 ## Challenge Requirements
 
 #### First Task
